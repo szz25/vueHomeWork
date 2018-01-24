@@ -1,0 +1,156 @@
+div,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+form,
+table,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+select,
+textarea,
+span,
+strong,
+em,
+b,
+i,
+u,
+a,
+img,
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+body {
+    font-family: "宋体";
+    font-size: 12px;
+    color: #000;
+    background-color: #fff;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 14px;
+}
+
+img {
+    border: none;
+}
+
+img,
+input,
+textarea,
+select,
+output {
+    vertical-align: middle;
+}
+
+a {
+    background: transparent;
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #006699;
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    width: 300px;
+    height: 100px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: #fff;
+    text-align: center;
+}
+
+.head {
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+    line-height: 30px;
+    padding: 0 20px;
+}
+
+h2 {
+    float: left;
+}
+
+.head span {
+    float: right;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.zheZhao {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.ok {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.clost {
+    width: 50px;
+    margin-left: 10px;
+}
